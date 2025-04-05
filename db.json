@@ -1,0 +1,379 @@
+{
+    "header":[
+      {
+        "Image":"https://www.goldonecomputer.com/image/cache/catalog/Blogs/Router-Cover%E2%80%8B%E2%80%8B%20Website-914x510.jpg",
+      "date":"29 Mar 2025",
+      "descrition":"[VIDEO] WiFi 6 Router Review"
+      },
+      {
+        "Image":"https://www.goldonecomputer.com/image/cache/catalog/Blogs/Cover%20Website-914x510.jpg",
+        "date":"22 Mar 2025",
+        "descrition":"[VIDEO] Laptop OLED 3K Review"
+      },
+      {
+        "Image":"https://www.goldonecomputer.com/image/cache/catalog/Blogs/250313%20RTX%205070-914x510.jpg",
+        "date":"13 Mar 2025",
+        "descrition":"[VIDEO] Should you upgrade RTX5070?"
+      }
+    ],
+    "DESKTOP":[
+      {
+        "name": "Asus NUC i3 1315U",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/GOC%20SR/2025/ASUS/NUC/RNUC13VYKI50006-1-200x200.jpg",
+        "spec": "8GB / SSD 256GB",
+        "price": "$449.00"
+      },
+      {
+        "name": "Asus NUC i7 1260P",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/GOC%20SR/2025/ASUS/NUC/RNUC12WSHI70000-1-200x200.jpg",
+        "spec": "16GB / SSD 512GB",
+        "price": "$719.00"
+      },
+      {
+        "name": "Dell OptiPlex i5 14500",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/GOC%20SR/2025/Dell/Desktop/Dell-OptiPlex-7020SFF-1-200x200.jpg",
+        "spec": "8GB / SSD 512GB",
+        "price": "$599.00"
+      },
+      {
+        "name": "Asus NUC 11ATKPE0000",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/GOC%20SR/2025/ASUS/NUC/BNUC11ATKPE0000-1-200x200.jpg",
+        "spec": "8GB / SSD 256GB",
+        "price": "$269.00"
+      }
+    ],
+    "LAPTOP": [
+      {
+        "name": "MacBook Air 15",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/GOC%20SR/2025/APPLE/Air/Mac-air-M4-15-Sky-Blue-1-200x200.jpg",
+        "spec": "M4 Chip / 16GB / SSD 512GB /15.2",
+        "price": "$1,559.00"
+      },
+      {
+        "name": "MacBook Air 15",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/APPLE%20LAPTOP/2023/Mac%20air%20/MacBook-Air-15-Space-Grey-200x200.jpg",
+        "spec": "M3 Chip / 16GB / SSD 256GB / 15",
+        "price": "$1,359.00"
+      },
+      {
+        "name": "MacBook Air 13",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/GOC%20SR/2025/APPLE/Air/Mac-air-M4-13-Midnight-1-200x200.jpg",
+        "spec": "M4 Chip / 16GB / SSD 256GB /13.6",
+        "price": "$1,159.00"
+      },
+      {
+        "name": "Lenovo ThinkPad T14 Gen 5",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/GOC%20SR/2025/LENOVO/Notebook%20/ThinkPad-T14-Gen-5-1-200x200.jpg",
+        "spec": "Ultra 7 155U / 16GB",
+        "price": "$1,159.00"
+      }
+    ],
+    "latest": [
+      {
+        "name": "Huawei AP362E Wireless Ceiling",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/Huawei/Access%20Point/AP361-330x409.jpg",
+        "spec": "2.975Gbps WIFI 6 Access Point",
+        "price": "$95.00"
+      },
+      {
+        "name": "Huawei AP160 Wireless",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/Huawei/Access%20Point/AP160-1-330x409.jpg",
+        "spec": "Wall Mounted 1.775Gbps WIFI 6 Access Point",
+        "price": "$75.00"
+      },
+      {
+        "name": "Huawei AP266 Wireless",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/Huawei/Access%20Point/AP266-330x409.jpg",
+        "spec": "Wall plate 2.975Gbps WIFI 6 Access Point",
+        "price": "$110.00"
+      },
+      {
+        "name": "Huawei S310S-24P4J",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/Huawei/Switch/S220S-24P4J-330x409.jpg",
+        "spec": "24Port L3 POE+ Management Gigabit Switch",
+        "price": "$320.00"
+      }
+    ],
+    "monitor": [
+      {
+        "name": "MSI PRO MP273U",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/Monitor%20MSI/PRO-MP273U-200x200.jpg",
+        "spec": "27\" / 4K / IPS / 60Hz / 3 Years",
+        "price": "$199.00"
+      },
+      {
+        "name": "Samsung Odyssey OLED",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/Monitor%20Samsung/G6-200x200.jpg",
+        "spec": "G6 G60SD (Pivot) 27\" / OLED",
+        "price": "$910.00"
+      },
+      {
+        "name": "Samsung Essential Monitor",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/Monitor%20Samsung/S3-2025-200x200.jpg",
+        "spec": "S3 (S30GD) 2025 24\"",
+        "price": "$109.00"
+      },
+      {
+        "name": "Samsung Odyssey OLED G6",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/Monitor%20Samsung/G6-OLED-240Hz-200x200.jpg",
+        "spec": "(Pivot) 27\" / OLED",
+        "price": "$699.00"
+      }
+    ],
+    "component": [
+      {
+        "name": "FSP Hydro PTM PRO(ATX3.1)",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/PSU/FSP1650W1-200x200.jpg",
+        "spec": "1650W Max Power 1600W",
+        "price": "$299.00"
+      },
+      {
+        "name": "darkFlash PMT 850W ATX 3.1",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/PSU/PMT-White-750W-200x200.jpg",
+        "spec": "White 850W / Full Mo",
+        "price": "$79.00"
+      },
+      {
+        "name": "Power Supply FSP HV Pro",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/PSU/HV-Pro-650W-200x200.jpg",
+        "spec": "85+ 650 650W / 80 Plus",
+        "price": "$45.00"
+      },
+      {
+        "name": "Power FSP VITA GD 850W GOLD",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/PSU/FSP-VITA-GD-850W-200x200.jpg",
+        "spec": "Max Power 850W/ 80",
+        "price": "$95.00"
+      }
+    ],
+    "gaming": [
+      {
+        "name": "MOUSE ONIKUMA CW929 USB",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/Gaming%20Gear/Gaming%20Mouse/CW929-1-200x200.png",
+        "spec": "GAMING RGB",
+        "price": "$12.00"
+      },
+      {
+        "name": "Razer BlackShark V2 X Gaming",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/Gaming%20Gear/Gaming%20Headset/blackshark-v2-x-1-200x200.jpg",
+        "spec": "Headset 7.1 Surround",
+        "price": "$55.00"
+      },
+      {
+        "name": "Logitech G502 X Gaming",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/Gaming%20Gear/Gaming%20Mouse/G502-X-2-200x200.jpg",
+        "spec": "Mouse White",
+        "price": "$79.00"
+      },
+      {
+        "name": "Logitech G502 X Gaming Mouse",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/Gaming%20Gear/Gaming%20Mouse/G502-X-4-200x200.jpg",
+        "spec": "Mouse",
+        "price": "$75.00"
+      }
+    ],
+    "accessories": [
+      {
+        "name": "ORICO Type-C 10-in-1 5Gbps",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/Accessories%20Converter/ORICO/PW11-10P-200x200.jpg",
+        "spec": "Multifunction Docking",
+        "price": "$35.00"
+      },
+      {
+        "name": "ORICO 6-in-1 Type-C Multifunction",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/Accessories%20Converter/ORICO/MC-U602P-200x200.jpg",
+        "spec": "Docking Station",
+        "price": "$35.00"
+      },
+      {
+        "name": "ORICO 5-in-1 Type-C Multifunction",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/Accessories%20Converter/ORICO/MC-U501P-200x200.jpg",
+        "spec": "Docking Station",
+        "price": "$29.00"
+      },
+      {
+        "name": "ORICO 8 IN 1 Type-C Multifunctional",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/Accessories%20Converter/ORICO/2CT-8HR-2-200x200.jpg",
+        "spec": "Docking Station",
+        "price": "$35.00"
+      }
+    ],
+    "audio": [
+      {
+        "name": "Razer Seiren V3 Mini USB",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/Gaming%20Gear/Gaming%20Headset/Razer-Seiren-V3-Mini-USB-Microphone-Condenser-Mic-200x200.jpg",
+        "spec": "Microphone",
+        "price": "$59.00"
+      },
+      {
+        "name": "Logitech H540 USB Headset",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/Audio%20Device/Headset/H540-200x200.jpg",
+        "spec": "Noise Cancelling",
+        "price": "$36.00"
+      },
+      {
+        "name": "XDOBO Sinoband Dignity 2024​ 50W",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/Speaker/Speaker%20Xdobo/240607%20XDOBO%20SINOBAND%20Dignity%202024-4-200x200.jpg",
+        "spec": "Portable Speaker",
+        "price": "$43.00"
+      },
+      {
+        "name": "XDOBO BMTL Grammy 5W portable",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/Speaker/Speaker%20Xdobo/241004%20BMTL%20Grammy%202-200x200.jpg",
+        "spec": "Speaker",
+        "price": "$15.00"
+      }
+    ],
+    "projector": [
+      {
+        "name": "Epson EB-L260F-Built-InWireles-WXGA",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/Projector%20Epson/EB-L260F-3-200x200.png",
+        "spec": "1920x1080",
+        "price": "$1,349.00"
+      },
+      {
+        "name": "Epson EB-2250U 3LCD Projector WUXGA",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/Projector%20Epson/EB-2256U%20(1)-200x200.png",
+        "spec": "5000 ANSI Lum",
+        "price": "$1,499.00"
+      },
+      {
+        "name": "Projector RTAKO A4300PRO",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/Projector%20Epson/H8c6ee81806fc48308e791c45309d17f6j.jpg_720x720q50-200x200.jpg",
+        "spec": "Mouse White",
+        "price": "$150.00"
+      },
+      {
+        "name": "Epson CO-FH01 LCD Projector WXGA",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/Projector%20Epson/FH01-200x200.png",
+        "spec": "3000 ANSI Lumens",
+        "price": "$419.00"
+      }
+    ],
+    "printer": [
+      {
+        "name": "HP Color LaserJet MFP M570DW A4",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/HP%20Printer%20/M570DW-2-200x200.jpg",
+        "spec": "Print, Copy, Scan",
+        "price": "$1,029.00"
+      },
+      {
+        "name": "HP Color LaserJet MFP M283FDN A4",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/HP%20Printer%20/M283Fdw1-200x200.png",
+        "spec": "Print, Copy, Scan",
+        "price": "$359.00"
+      },
+      {
+        "name": "HP LASERJET PRO MFP M139FNW A4 B/W",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/HP%20Printer%20/M137FNW-200x200.jpg",
+        "spec": "Print, Copy, Sc",
+        "price": "$225.00"
+      },
+      {
+        "name": "HP LaserJet Enterprise M611DN A4",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/HP%20Printer%20/M611DN-200x200.jpg",
+        "spec": "B/W Print Only",
+        "price": "$749.00"
+      }
+    ],
+    "digital": [
+      {
+        "name": "Synology 4TB BeeStation Personal",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/Synology/BST150-4T-200x200.png",
+        "spec": "Cloud (BST150-4T)",
+        "price": "$295.00"
+      },
+      {
+        "name": "Synology USB Station 2 USB NAS",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/Synology/Synology-USB-Station-2-USB-NAS-200x200.jpg",
+        "spec": "USB NAS",
+        "price": "$120.00"
+      },
+      {
+        "name": "Synology 1.92TB 2.5” Enterprise-Grade",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/Synology/SYNOLOGY%20Accessories/SAT5220-1920G-200x200.jpg",
+        "spec": "SATA SSD",
+        "price": "$585.00"
+      },
+      {
+        "name": "Synology RAM 4GB module for",
+        "image": "https://www.goldonecomputer.com/image/cache/catalog/Products/Synology/SYNOLOGY%20Accessories/D4ECSO-2400-8G-200x200.jpg",
+        "spec": "RS2418(RP)+, RS2818RP+",
+        "price": "$105.00"
+      }
+    ],
+    "footer":{
+      "Image":[
+        "https://www.goldonecomputer.com/image/cache/catalog/Icon%20and%20Logo/221219%20Logo%20Hikvision-130x110.png",
+        "https://www.goldonecomputer.com/image/cache/catalog/Icon%20and%20Logo/240214%20Logo%20Acegeek-130x110.png",
+        "https://www.goldonecomputer.com/image/cache/catalog/Icon%20and%20Logo/240214%20Logo%20Microlab-130x110.png",
+        "https://www.goldonecomputer.com/image/cache/catalog/Icon%20and%20Logo/240214%20Logo%20Prolink-130x110.png",
+        "https://www.goldonecomputer.com/image/cache/catalog/Icon%20and%20Logo/Artboard%2017-130x110.png",
+        "https://www.goldonecomputer.com/image/cache/catalog/Icon%20and%20Logo/Artboard%2020-130x110.png",
+        "https://www.goldonecomputer.com/image/cache/catalog/Icon%20and%20Logo/Artboard%202-130x110.png",
+        "https://www.goldonecomputer.com/image/cache/catalog/Icon%20and%20Logo/240214%20Logo%20Onikuma-130x110.png",
+        "https://www.goldonecomputer.com/image/cache/catalog/Icon%20and%20Logo/Artboard%2040-130x110.png",
+        "https://www.goldonecomputer.com/image/cache/catalog/Icon%20and%20Logo/Artboard%2013-130x110.png",
+        "https://www.goldonecomputer.com/image/cache/catalog/Icon%20and%20Logo/240214%20Logo%20aigo-130x110.png",
+        "https://www.goldonecomputer.com/image/cache/catalog/Icon%20and%20Logo/Artboard%204-130x110.png",
+        "https://www.goldonecomputer.com/image/cache/catalog/Icon%20and%20Logo/Artboard%2019-130x110.png",
+        "https://www.goldonecomputer.com/image/cache/catalog/Icon%20and%20Logo/Artboard%2021-130x110.png",
+        "https://www.goldonecomputer.com/image/cache/catalog/Icon%20and%20Logo/Artboard%209-130x110.png",
+        "https://www.goldonecomputer.com/image/cache/catalog/Icon%20and%20Logo/Artboard%206-130x110.png",
+        "https://www.goldonecomputer.com/image/cache/catalog/Icon%20and%20Logo/221219%20Logo%20Darkflash-130x110.png",
+        "https://www.goldonecomputer.com/image/cache/catalog/Icon%20and%20Logo/Artboard%208-130x110.png",
+        "https://www.goldonecomputer.com/image/cache/catalog/Icon%20and%20Logo/Artboard%2016-130x110.png",
+        "https://www.goldonecomputer.com/image/cache/catalog/Icon%20and%20Logo/Artboard%2024-130x110.png",
+        "https://www.goldonecomputer.com/image/cache/catalog/Icon%20and%20Logo/Artboard%2037-130x110.jpg"
+      ]
+    },
+    "FEATURE" : {
+      "Imageli1": [
+        "https://www.goldonecomputer.com/image/catalog/Side%20Bar/250223%20ORICO%204%20ports.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250227 Samsung 990 Pro.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/FeatureLaptop_1.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250223 APC Back UPS.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250222 ACER Aspire Lite AL14.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250222 ACER Nitro V15.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250222 LENOVO LOQ 15IAX9.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250222 ROG Strix G16 G614JU.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/FeatureProduct_1.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250227 MSI PRO MP275Q.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250223 Razer DeathAdder.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250227 AMD Ryzen 7 7800X 3D.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250227 AMD Ryzen 7 7800X 3D.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250223 ONIKUMA G55.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250227 AOC AGON AG276QZD2.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250223 HP LASERJET PRO.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250223 UBIQUITI UniFi.jpg"
+      ],
+      "Imageli2": [
+        "https://www.goldonecomputer.com/image/catalog/Side%20Bar/250223%20ORICO%204%20ports.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250227 Samsung 990 Pro.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/FeatureLaptop_1.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250223 APC Back UPS.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250222 ACER Aspire Lite AL14.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250222 ACER Nitro V15.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250227 Samsung 990 Pro.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/FeatureLaptop_1.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250223 APC Back UPS.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250222 ACER Aspire Lite AL14.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250222 ACER Nitro V15.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250222 LENOVO LOQ 15IAX9.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250222 ROG Strix G16 G614JU.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/FeatureProduct_1.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250227 MSI PRO MP275Q.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250223 Razer DeathAdder.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250227 AMD Ryzen 7 7800X 3D.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250223 ONIKUMA G55.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250227 AOC AGON AG276QZD2.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250223 HP LASERJET PRO.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250227 AMD Ryzen 7 7800X 3D.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250223 ONIKUMA G55.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250227 AOC AGON AG276QZD2.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250223 HP LASERJET PRO.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250223 UBIQUITI UniFi.jpg",
+        "https://www.goldonecomputer.com/image/catalog/Side Bar/250227 AOC AGON AG276QZD2.jpg"
+      ]
+    }
+  }

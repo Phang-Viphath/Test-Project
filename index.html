@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Shop in Phath</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+    <link rel="icon" type="Phath" href="me1.ico">
+</head>
+<body>
+    <header class="bg-black border-b-4 border-yellow-500 text-white py-4 px-5">
+        <div class="container mx-auto flex items-center justify-around flex-wrap">
+            <div class="flex items-center space-x-2 w-full md:w-auto justify-between md:justify-start">
+                <img src="me1.ico" alt="Logo" class="h-6">  
+                <span class="text-lg font-bold pl-2">COMPUTER SHOP IN PHATH</span>
+                <button class="md:hidden text-white text-2xl" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">☰</button>
+            </div>
+            <div class="flex items-center border border-gray-300 rounded-lg overflow-hidden w-full md:w-auto mt-2 md:mt-0">
+                <input type="text" placeholder="Search" class="px-3 py-1 text-black outline-none w-full md:w-auto">
+                <button class="bg-yellow-500 px-4 py-1">SEARCH</button>
+            </div>
+            <div class="flex items-center space-x-4 w-full md:w-auto justify-between md:justify-start mt-2 md:mt-0">
+                <div class="flex items-center space-x-2 hover:scale-105 transition-all duration-300">
+                    <span class="text-xl">&#9742;</span>
+                    <span>CONTACT<br><strong>096-361-2863</strong></span>
+                </div>
+                <div class="relative hover:scale-105 transition-all duration-300">
+                    <span class="text-2xl">&#128717;</span>
+                    <span class="absolute -top-2 -right-2 bg-yellow-500 text-black text-xs px-2 py-0.5 rounded-full">0</span>
+                </div>
+            </div>            
+        </div>
+        <nav id="mobile-menu" class="hidden md:flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6 w-full md:w-auto text-center md:text-left justify-center">
+            <a href="#MACBOOK" class="flex items-center justify-center space-x-1 hover:bg-yellow-500 hover:text-white px-4 py-2 rounded transition duration-300 ease-in-out hover:scale-105 transition-all duration-300">
+                <span>&#128187;</span> <span>LAPTOP</span>
+            </a>
+            <a href="#DESKTOP" class="flex items-center justify-center space-x-1 hover:bg-yellow-500 hover:text-white px-4 py-2 rounded transition duration-300 ease-in-out hover:scale-105 transition-all duration-300">
+                <span>&#128421;</span> <span>DESKTOP</span>
+            </a>
+            <a href="#Printer" class="flex items-center justify-center space-x-1 hover:bg-yellow-500 hover:text-white px-4 py-2 rounded transition duration-300 ease-in-out hover:scale-105 transition-all duration-300">
+                <span>&#127918;</span> <span>GAMING</span>
+            </a>
+            <a href="#Audio" class="flex items-center justify-center space-x-1 hover:bg-yellow-500 hover:text-white px-4 py-2 rounded transition duration-300 ease-in-out hover:scale-105 transition-all duration-300">
+                <span>&#127911;</span> <span>PERIPHERAL</span>
+            </a>
+            <a href="#PC_COMPONENTS" class="flex items-center justify-center space-x-1 hover:bg-yellow-500 hover:text-white px-4 py-2 rounded transition duration-300 ease-in-out hover:scale-105 transition-all duration-300">
+                <span>&#128295;</span> <span>PC BUILDER</span>
+            </a>
+            <a href="#" class="flex items-center justify-center space-x-1 hover:bg-yellow-500 hover:text-white px-4 py-2 rounded transition duration-300 ease-in-out hover:scale-105 transition-all duration-300">
+                <span>&#128221;</span> <span>BLOGS</span>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <div class="w-full bg-white px-4 md:px-8 flex justify-center">
+            <div class="w-10/12 text-white py-2">
+                <div class="flex flex-wrap justify-between items-center gap-12">
+                    <div class="flex space-x-7 items-center hover:scale-105 transition-all duration-300">
+                        <span class="text-gray-400 text-3xl ml-3">$</span>
+                        <div>
+                            <h1 class="text-[#545552] font-semibold text-lg">FREE QUOTATION</h1>
+                            <p class="text-gray-500 text-sm">Contact our sales person for special price</p>
+                        </div>
+                    </div>
+                    <div class="flex space-x-4 items-center hover:scale-105 transition-all duration-300">
+                        <span class="text-gray-400 text-3xl">📅</span>
+                        <div>
+                            <h1 class="text-[#545552] font-semibold text-lg">PROFESSIONAL CONSULTING</h1>
+                            <p class="text-gray-500 text-sm">With our experienced products manager</p>
+                        </div>
+                    </div>
+                    <div class="flex space-x-4 items-center hover:scale-105 transition-all duration-300">
+                        <span class="text-gray-400 text-3xl">🎁</span>
+                        <div>
+                            <h1 class="text-[#545552] font-semibold text-lg">FREE DELIVERY</h1>
+                            <p class="text-gray-500 text-sm">Within Phnom Penh town center</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="max-w-7xl mx-auto p-4 flex flex-col lg:flex-row gap-4">
+        <div class="w-full lg:w-1/4 bg-white shadow-lg rounded-lg">
+            <div class="p-4 bg-black text-white flex items-center justify-between">
+                <span class="font-bold">CATEGORIES</span>
+                <button id="menuToggle" class="lg:hidden text-yellow-500 text-2xl">☰</button>
+            </div>
+            <ul id="menuList" class="p-4 space-y-3 hidden lg:block">
+                <li class="flex items-center space-x-3 text-gray-700 hover:text-yellow-500 cursor-pointer hover:scale-105 transition-all duration-300">
+                    <span>💻</span><span><a href="#MACBOOK">Laptop</a></span>
+                </li>
+                <li class="flex items-center space-x-3 text-gray-700 hover:text-yellow-500 cursor-pointer hover:scale-105 transition-all duration-300">
+                    <span>🖥️</span><span><a href="#DESKTOP">Desktop</a></span>
+                </li>
+                <li class="flex items-center space-x-3 text-gray-700 hover:text-yellow-500 cursor-pointer hover:scale-105 transition-all duration-300">
+                    <span>🖨️</span><span><a href="#Printer">Printer & Scanner</a></span>
+                </li>
+                <li class="flex items-center space-x-3 text-gray-700 hover:text-yellow-500 cursor-pointer hover:scale-105 transition-all duration-300">
+                    <span>🎧</span><span><a href="#Audio">Audio Device</a></span>
+                </li>
+                <li class="flex items-center space-x-3 text-gray-700 hover:text-yellow-500 cursor-pointer hover:scale-105 transition-all duration-300">
+                    <span>🛠️</span><span><a href="#PC_COMPONENTS">PC Components</a></span>
+                </li>
+                <li class="flex items-center space-x-3 text-gray-700 hover:text-yellow-500 cursor-pointer hover:scale-105 transition-all duration-300">
+                    <span>🔒</span><span>Security System</span>
+                </li>
+                <li class="flex items-center justify-between border-b pb-2 hover:scale-105 transition-all duration-300">
+                    <span>⚡ ORICO 4 PORTS USB HUB</span> <span class="text-red-500">From $12</span>
+                </li>
+                <li class="flex items-center justify-between border-b pb-2 hover:scale-105 transition-all duration-300">
+                    <span>💾 SAMSUNG 990 PRO 1TB</span> <span class="text-red-500">From $110</span>
+                </li>
+                <li class="flex items-center justify-between border-b pb-2 hover:scale-105 transition-all duration-300">
+                    <span>🔋 APC BACK-UPS 750VA</span> <span class="text-red-500">From $125</span>
+                </li>
+                <li class="flex items-center justify-between border-b pb-2 hover:scale-105 transition-all duration-300">
+                    <span>🖥️ MSI MAG B850</span> <span class="text-red-500">From $235</span>
+                </li>
+                <li class="flex items-center justify-between border-b pb-2 hover:scale-105 transition-all duration-300">
+                    <span>🎥 ACER PROJECTOR</span> <span class="text-red-500">From $365</span>
+                </li>
+                <li class="flex items-center justify-between border-b pb-2 hover:scale-105 transition-all duration-300">
+                    <span>💻 CORE ULTRA 9</span> <span class="text-red-500">From $569</span>
+                </li>
+                <li class="flex items-center justify-between border-b pb-2">
+                    <button class="mt-3 px-2 py-2 bg-[#26c9fc] text-white rounded-md hover:scale-105 transition-all duration-300"><a href="https://t.me/PHANG_VIPHATH">Telegram</a></button>
+                    <button class="mt-3 px-6 py-2 bg-[#060b0d] text-white rounded-md hover:scale-105 transition-all duration-300"><a href="https://www.tiktok.com/@01001001.01010100">Tiktok</a></button>
+                    <button class="mt-3 px-2 py-2 bg-[#0865ff] text-white rounded-md hover:scale-105 transition-all duration-300"><a href="https://www.facebook.com/share/1AK2PkuQH2/?mibextid=wwXIfr">Facebook</a></button>
+                </li>
+            </ul>
+        </div>
+
+        <div class="w-full lg:w-3/4">
+            <div class="relative w-full overflow-hidden rounded-lg shadow-lg">
+                <div x-data="slider()" x-init="init()" class="relative w-full max-w-5xl overflow-hidden rounded-lg shadow-lg">
+                    <div class="flex transition-transform duration-700 ease-in-out" :style="'transform: translateX(-' + currentIndex * 100 + '%)'">
+                      <template x-for="img in images" :key="img">
+                        <img :src="img" class="w-full flex-shrink-0 object-cover" alt="Slide">
+                      </template>
+                    </div>
+                    <button @click="prev" class="absolute left-3 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow hover:bg-gray-200">
+                      &#8592;
+                    </button>
+                    <button @click="next" class="absolute right-3 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow hover:bg-gray-200">
+                      &#8594;
+                    </button>
+                
+                    <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+                      <template x-for="(img, index) in images" :key="index">
+                        <div
+                          @click="goTo(index)"
+                          :class="{
+                            'bg-blue-500': index === currentIndex,
+                            'bg-white border border-gray-400': index !== currentIndex
+                          }"
+                          class="w-3 h-3 rounded-full cursor-pointer"
+                        ></div>
+                      </template>
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-4">
+                <button class="bg-black text-yellow-500 p-3 rounded-lg flex items-center justify-center gap-2 hover:scale-105 transition-all duration-300">
+                    <span>🎮</span> GAMING LAPTOP
+                </button>
+                <button class="bg-black text-yellow-500 p-3 rounded-lg flex items-center justify-center gap-2 hover:scale-105 transition-all duration-300">
+                    <span>💻</span> MACBOOK
+                </button>
+                <button class="bg-black text-yellow-500 p-3 rounded-lg flex items-center justify-center gap-2 hover:scale-105 transition-all duration-300">
+                    <span>🖥️</span> DESIGNER DESKTOP
+                </button>
+                <button class="bg-black text-yellow-500 p-3 rounded-lg flex items-center justify-center gap-2 hover:scale-105 transition-all duration-300">
+                    <span>🎧</span> GAMING GEAR
+                </button>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
+                <img src="https://www.goldonecomputer.com/image/catalog/Banner and Slide/230831 Security 1.jpg" class="w-full rounded-lg shadow-lg hover:scale-105 transition-all duration-300" alt="Ad 1">
+                <img src="https://www.goldonecomputer.com/image/catalog/Banner and Slide/230831 Security 2.jpg" class="w-full rounded-lg shadow-lg hover:scale-105 transition-all duration-300" alt="Ad 2">
+            </div>
+        </div>
+
+    </div>
+
+    <button class="fixed bottom-6 right-6 bg-yellow-500 text-white px-4 py-3 rounded-full shadow-lg flex items-center">
+        💬 Chat with us
+    </button>
+
+    <script>
+        document.getElementById('menuToggle').addEventListener('click', function () {
+            document.getElementById('menuList').classList.toggle('hidden');
+        });
+    </script>
+    <div class="max-w-7xl mx-auto p-4 flex flex-col lg:flex-row gap-4">
+        <div class="w-full lg:w-1/4 bg-white shadow-lg rounded-lg p-4">
+            <h2 class="text-lg font-semibold border-b pb-2">FEATURE PRODUCT LINE</h2>
+            <ul class="mt-4 space-y-4" id="li1">
+               
+            </ul>
+
+            <ul class="mt-4 space-y-4" id="li2">
+                
+            </ul>
+        </div>
+        <div class="w-full lg:w-3/4">
+            <div>
+                <h2 class="text-lg font-semibold bg-green-500 text-white px-4 py-2 inline-block rounded-lg border-green-700 hover:scale-105 transition-all duration-300">
+                    FROM THE BLOG
+                </h2>                
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-4" id="header">
+    
+                </div>
+                <button class="mt-3 px-4 py-2 bg-yellow-500 text-white rounded-md hover:scale-105 transition-all duration-300">VIEW ALL</button>
+            </div>
+            <div class="mt-6">
+                <h2 id="DESKTOP" class="text-lg font-semibold bg-yellow-500 text-white px-4 py-2 inline-block hover:scale-105 transition-all duration-300 hover:scale-105 transition-all duration-300">DESKTOP</h2>
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mt-4" id="desktop">
+
+                </div>
+                <button class="mt-3 px-4 py-2 bg-yellow-500 text-white rounded-md hover:scale-105 transition-all duration-300">VIEW ALL</button>
+            </div>   
+            <div class="mt-6">
+                <h2 id="MACBOOK" class="text-lg font-semibold bg-yellow-500 text-white px-4 py-2 inline-block hover:scale-105 transition-all duration-300">MACBOOK & LAPTOP</h2>
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mt-4" id="LAPTOP">
+
+                </div>
+                <button class="mt-3 px-4 py-2 bg-yellow-500 text-white rounded-md hover:scale-105 transition-all duration-300">VIEW ALL</button>
+            </div>
+            <div class="mt-6">
+                <h2 id="LATEST_PRODUCT" class="text-lg font-semibold bg-yellow-500 text-white px-4 py-2 inline-block hover:scale-105 transition-all duration-300">LATEST PRODUCT</h2>
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mt-4" id="LATEST">
+                    
+                </div>
+                <button class="mt-3 px-4 py-2 bg-yellow-500 text-white rounded-md hover:scale-105 transition-all duration-300">VIEW ALL</button>
+            </div>
+            <div class="mt-6">
+                <h2 id="MONITOR" class="text-lg font-semibold bg-yellow-500 text-white px-4 py-2 inline-block hover:scale-105 transition-all duration-300">MONITOR</h2>
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mt-4" id="monitor">
+
+                </div>
+                <button class="mt-3 px-4 py-2 bg-yellow-500 text-white rounded-md hover:scale-105 transition-all duration-300">VIEW ALL</button>         
+            </div>
+            <div class="mt-6">
+                <h2 id="PC_COMPONENTS" class="text-lg font-semibold bg-yellow-500 text-white px-4 py-2 inline-block hover:scale-105 transition-all duration-300">PC COMPONENTS</h2>
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mt-4" id="COMPONENTS">
+                     
+                </div>
+                <button class="mt-3 px-4 py-2 bg-yellow-500 text-white rounded-md hover:scale-105 transition-all duration-300">VIEW ALL</button>
+            </div>
+            <div class="mt-6">
+                <h2 class="text-lg font-semibold bg-yellow-500 text-white px-4 py-2 inline-block hover:scale-105 transition-all duration-300">GAMING GEAR</h2>
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mt-4" id="GAMING">
+                         
+                </div>
+                <button class="mt-3 px-4 py-2 bg-yellow-500 text-white rounded-md hover:scale-105 transition-all duration-300">VIEW ALL</button>
+            </div>
+            <div class="mt-6">
+                <h2 class="text-lg font-semibold bg-yellow-500 text-white px-4 py-2 inline-block hover:scale-105 transition-all duration-300">ACCESSORIES</h2>
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mt-4" id="ACCESSORIES">
+                      
+                </div>
+                <button class="mt-3 px-4 py-2 bg-yellow-500 text-white rounded-md hover:scale-105 transition-all duration-300">VIEW ALL</button>
+            </div>
+            <div class="mt-6">
+                <h2 id="Audio" class="text-lg font-semibold bg-yellow-500 text-white px-4 py-2 inline-block hover:scale-105 transition-all duration-300">AUDIO DEVICE</h2>
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mt-4" id="AUDIO">
+                    
+                </div>
+                <button class="mt-3 px-4 py-2 bg-yellow-500 text-white rounded-md hover:scale-105 transition-all duration-300">VIEW ALL</button>
+            </div>
+            <div class="mt-6">
+                <h2 class="text-lg font-semibold bg-yellow-500 text-white px-4 py-2 inline-block hover:scale-105 transition-all duration-300">PROJECTOR</h2>
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mt-4" id="PROJECTOR">
+                         
+                </div>
+                <button class="mt-3 px-4 py-2 bg-yellow-500 text-white rounded-md hover:scale-105 transition-all duration-300">VIEW ALL</button>
+            </div>
+            <div class="mt-6">
+                <h2 id="Printer" class="text-lg font-semibold bg-yellow-500 text-white px-4 py-2 inline-block hover:scale-105 transition-all duration-300">PRINTER AND SCANNER</h2>
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mt-4" id="PRINTER">
+                      
+                </div>
+                <button class="mt-3 px-4 py-2 bg-yellow-500 text-white rounded-md hover:scale-105 transition-all duration-300">VIEW ALL</button>
+            </div>
+            <div class="mt-6">
+                <h2 class="text-lg font-semibold bg-yellow-500 text-white px-4 py-2 inline-block hover:scale-105 transition-all duration-300">DIGITAL STORAGE</h2>
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mt-4" id="DIGITAL">
+                         
+                </div>
+                <button class="mt-3 px-4 py-2 bg-yellow-500 text-white rounded-md hover:scale-105 transition-all duration-300">VIEW ALL</button>
+            </div>
+            <div class="bg-white p-4 shadow rounded-lg mt-6">
+                <div class="flex items-center justify-between">
+                    <button class="text-gray-600 text-2xl">&#x276E;</button>
+                    <div class="flex space-x-6 overflow-x-auto" id="footer">
+
+                    </div>
+                    <button class="text-gray-600 text-2xl">&#x276F;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="fixed bottom-6 right-6 bg-yellow-500 text-white px-4 py-3 rounded-full shadow-lg flex items-center hover:scale-105 transition-all duration-300">
+        <a href="https://t.me/PHANG_VIPHATH">💬 Chat with us</a>
+    </button>
+</main>
+<footer class="bg-black text-white flex flex-wrap md:justify-around justify-between py-8 border-t-4 border-yellow-500 mt-7 px-4 md:px-16">
+    <ul class="space-y-2 mb-4">
+        <li><a href="#" class="hover:text-yellow-400">Home</a></li>
+        <li><a href="#" class="hover:text-yellow-400">About Us</a></li>
+        <li><a href="#" class="hover:text-yellow-400">Contact Us</a></li>
+        <li><a href="#" class="hover:text-yellow-400">Terms & Conditions</a></li>
+        <li><a href="#" class="hover:text-yellow-400">Privacy Policy</a></li>
+        <li><a href="#" class="hover:text-yellow-400">FAQ</a></li>
+    </ul>
+    <ul class="space-y-4 flex md:flex-col flex-row gap-4 mb-4">
+        <li><a href="https://www.facebook.com/share/1AK2PkuQH2/?mibextid=wwXIfr" class="text-2xl text-blue-800 hover:text-yellow-400"><i class="bi bi-facebook"></i></a></li>
+        <li><a href="https://t.me/PHANG_VIPHATH" class="text-2xl text-blue-500 hover:text-yellow-400"><i class="bi bi-telegram"></i></a></li>
+        <li><a href="https://www.tiktok.com/@01001001.01010100" class="text-2xl text-bg-info hover:text-yellow-400"><i class="bi bi-tiktok"></i></a></li>
+    </ul>
+    <ul class="space-y-2 mb-4">
+        <li>&copy; 2022 Computer shop in phath. All rights reserved.</li>
+        <li><a href="#" class="hover:text-yellow-400">Privacy Policy</a></li>
+        <li><a href="#" class="hover:text-yellow-400">Terms & Conditions</a></li>
+        <li><a href="#" class="hover:text-yellow-400">Contact Us</a></li>
+    </ul>
+    <ul class="space-y-2 text-center mb-4">
+        <li><img src="me1.ico" alt="Golden Computer" class="w-20 h-20"></li>
+        <li class="text-lg font-semibold">COMPUTER SHOP IN PHATH</li>
+    </ul>
+</footer>
+<script src="JavaScript.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</body>
+</html>
