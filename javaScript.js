@@ -27,7 +27,7 @@ function slider() {
       }
     }
   }
-  
+
   fetch('http://localhost:3000/FEATURE')
    .then(response => response.json())
    .then(data => {  
@@ -45,11 +45,11 @@ function slider() {
             <img src="${url}" alt="">
           </li>`;
       });
-    })
+    });
   
     fetch('http://localhost:3000/header')
     .then(response => response.json())
-    .then(data => {  
+    .then(data => {
       let header = document.getElementById('header');
       data.forEach(item => {
             header.innerHTML += `
@@ -79,26 +79,26 @@ function slider() {
        .then(data => {
             data.forEach(item => {
                 desktop.innerHTML += `
-        <div class="bg-white p-3 shadow-lg rounded-lg text-center group hover:shadow-xl hover:scale-105 transition-all duration-300">
-            <img src="${item.image}" alt="Product Image" class="w-full rounded-md">
-            <p class="text-sm font-semibold mt-2">${item.name}</p>
-            <p class="text-gray-500 text-xs">${item.spec}</p>
-            <p class="text-green-600 font-semibold">${item.price}</p>
-            <div class="flex justify-center space-x-2 mt-3 opacity-0 group-hover:opacity-100 transition duration-300">
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-yellow-500 hover:text-white">
-                    🛒
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-blue-500 hover:text-white">
-                    👁️
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-red-500 hover:text-white">
-                    ❤️
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-black hover:text-white">
-                    ⚫
-                </button>
+            <div class="bg-white p-3 shadow-lg rounded-lg text-center group hover:shadow-xl hover:scale-105 transition-all duration-300">
+                <img src="${item.image}" alt="Product Image" class="w-full rounded-md">
+                <p class="text-sm font-semibold mt-2">${item.name}</p>
+                <p class="text-gray-500 text-xs">${item.spec}</p>
+                <p class="text-green-600 font-semibold">${item.price}</p>
+                <div class="flex justify-center space-x-2 mt-3 opacity-0 group-hover:opacity-100 transition duration-300">
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-yellow-500 hover:text-white">
+                        🛒
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-blue-500 hover:text-white">
+                        👁️
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-red-500 hover:text-white">
+                        ❤️
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-black hover:text-white">
+                        ⚫
+                    </button>
+                </div>
             </div>
-        </div>
             `;
             })
         });
@@ -109,55 +109,56 @@ function slider() {
     .then(data => {
       data.forEach(item => {
         LAPTOP.innerHTML += `
-        <div class="bg-white p-3 shadow-lg rounded-lg text-center group hover:shadow-xl hover:scale-105 transition-all duration-300">
-            <img src="${item.image}" alt="Product Image" class="w-full rounded-md">
-            <p class="text-sm font-semibold mt-2">${item.name}</p>
-            <p class="text-gray-500 text-xs">${item.spec}</p>
-            <p class="text-green-600 font-semibold">${item.price}</p>
-            <div class="flex justify-center space-x-2 mt-3 opacity-0 group-hover:opacity-100 transition duration-300">
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-yellow-500 hover:text-white">
-                    🛒
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-blue-500 hover:text-white">
-                    👁️
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-red-500 hover:text-white">
-                    ❤️
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-black hover:text-white">
-                    ⚫
-                </button>
+            <div class="bg-white p-3 shadow-lg rounded-lg text-center group hover:shadow-xl hover:scale-105 transition-all duration-300">
+                <img src="${item.image}" alt="Product Image" class="w-full rounded-md">
+                <p class="text-sm font-semibold mt-2">${item.name}</p>
+                <p class="text-gray-500 text-xs">${item.spec}</p>
+                <p class="text-green-600 font-semibold">${item.price}</p>
+                <div class="flex justify-center space-x-2 mt-3 opacity-0 group-hover:opacity-100 transition duration-300">
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-yellow-500 hover:text-white">
+                        🛒
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-blue-500 hover:text-white">
+                        👁️
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-red-500 hover:text-white">
+                        ❤️
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-black hover:text-white">
+                        ⚫
+                    </button>
+                </div>
             </div>
-        </div>
             `;
       });
     });
+    
     let LATEST = document.getElementById('LATEST');
     fetch('http://localhost:3000/latest')
     .then(response => response.json())
     .then(data => {
       data.forEach(item => {
         LATEST.innerHTML += `
-        <div class="bg-white p-3 shadow-lg rounded-lg text-center group hover:shadow-xl hover:scale-105 transition-all duration-300">
-            <img src="${item.image}" alt="Product Image" class="w-full rounded-md">
-            <p class="text-sm font-semibold mt-2">${item.name}</p>
-            <p class="text-gray-500 text-xs">${item.spec}</p>
-            <p class="text-green-600 font-semibold">${item.price}</p>
-            <div class="flex justify-center space-x-2 mt-3 opacity-0 group-hover:opacity-100 transition duration-300">
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-yellow-500 hover:text-white">
-                    🛒
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-blue-500 hover:text-white">
-                    👁️
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-red-500 hover:text-white">
-                    ❤️
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-black hover:text-white">
-                    ⚫
-                </button>
+            <div class="bg-white p-3 shadow-lg rounded-lg text-center group hover:shadow-xl hover:scale-105 transition-all duration-300">
+                <img src="${item.image}" alt="Product Image" class="w-full rounded-md">
+                <p class="text-sm font-semibold mt-2">${item.name}</p>
+                <p class="text-gray-500 text-xs">${item.spec}</p>
+                <p class="text-green-600 font-semibold">${item.price}</p>
+                <div class="flex justify-center space-x-2 mt-3 opacity-0 group-hover:opacity-100 transition duration-300">
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-yellow-500 hover:text-white">
+                        🛒
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-blue-500 hover:text-white">
+                        👁️
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-red-500 hover:text-white">
+                        ❤️
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-black hover:text-white">
+                        ⚫
+                    </button>
+                </div>
             </div>
-        </div>
         `;
       });
     });
@@ -168,26 +169,26 @@ function slider() {
     .then(data => {
       data.forEach(item => {
         monitor.innerHTML += `
-        <div class="bg-white p-3 shadow-lg rounded-lg text-center group hover:shadow-xl hover:scale-105 transition-all duration-300">
-            <img src="${item.image}" alt="Product Image" class="w-full rounded-md">
-            <p class="text-sm font-semibold mt-2">${item.name}</p>
-            <p class="text-gray-500 text-xs">${item.spec}</p>
-            <p class="text-green-600 font-semibold">${item.price}</p>
-            <div class="flex justify-center space-x-2 mt-3 opacity-0 group-hover:opacity-100 transition duration-300">
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-yellow-500 hover:text-white">
-                    🛒
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-blue-500 hover:text-white">
-                    👁️
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-red-500 hover:text-white">
-                    ❤️
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-black hover:text-white">
-                    ⚫
-                </button>
+            <div class="bg-white p-3 shadow-lg rounded-lg text-center group hover:shadow-xl hover:scale-105 transition-all duration-300">
+                <img src="${item.image}" alt="Product Image" class="w-full rounded-md">
+                <p class="text-sm font-semibold mt-2">${item.name}</p>
+                <p class="text-gray-500 text-xs">${item.spec}</p>
+                <p class="text-green-600 font-semibold">${item.price}</p>
+                <div class="flex justify-center space-x-2 mt-3 opacity-0 group-hover:opacity-100 transition duration-300">
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-yellow-500 hover:text-white">
+                        🛒
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-blue-500 hover:text-white">
+                        👁️
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-red-500 hover:text-white">
+                        ❤️
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-black hover:text-white">
+                        ⚫
+                    </button>
+                </div>
             </div>
-        </div>
         `;
       });
     });
@@ -198,26 +199,26 @@ function slider() {
     .then(data => {
       data.forEach(item => {
         COMPONENTS.innerHTML += `
-        <div class="bg-white p-3 shadow-lg rounded-lg text-center group hover:shadow-xl hover:scale-105 transition-all duration-300">
-            <img src="${item.image}" alt="Product Image" class="w-full rounded-md">
-            <p class="text-sm font-semibold mt-2">${item.name}</p>
-            <p class="text-gray-500 text-xs">${item.spec}</p>
-            <p class="text-green-600 font-semibold">${item.price}</p>
-            <div class="flex justify-center space-x-2 mt-3 opacity-0 group-hover:opacity-100 transition duration-300">
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-yellow-500 hover:text-white">
-                    🛒
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-blue-500 hover:text-white">
-                    👁️
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-red-500 hover:text-white">
-                    ❤️
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-black hover:text-white">
-                    ⚫
-                </button>
+            <div class="bg-white p-3 shadow-lg rounded-lg text-center group hover:shadow-xl hover:scale-105 transition-all duration-300">
+                <img src="${item.image}" alt="Product Image" class="w-full rounded-md">
+                <p class="text-sm font-semibold mt-2">${item.name}</p>
+                <p class="text-gray-500 text-xs">${item.spec}</p>
+                <p class="text-green-600 font-semibold">${item.price}</p>
+                <div class="flex justify-center space-x-2 mt-3 opacity-0 group-hover:opacity-100 transition duration-300">
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-yellow-500 hover:text-white">
+                        🛒
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-blue-500 hover:text-white">
+                        👁️
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-red-500 hover:text-white">
+                        ❤️
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-black hover:text-white">
+                        ⚫
+                    </button>
+                </div>
             </div>
-        </div>
         `;
       });
     });
@@ -227,26 +228,26 @@ function slider() {
     .then(data => {
       data.forEach(item => {
         GAMING.innerHTML += `
-        <div class="bg-white p-3 shadow-lg rounded-lg text-center group hover:shadow-xl hover:scale-105 transition-all duration-300">
-            <img src="${item.image}" alt="Product Image" class="w-full rounded-md">
-            <p class="text-sm font-semibold mt-2">${item.name}</p>
-            <p class="text-gray-500 text-xs">${item.spec}</p>
-            <p class="text-green-600 font-semibold">${item.price}</p>
-            <div class="flex justify-center space-x-2 mt-3 opacity-0 group-hover:opacity-100 transition duration-300">
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-yellow-500 hover:text-white">
-                    🛒
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-blue-500 hover:text-white">
-                    👁️
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-red-500 hover:text-white">
-                    ❤️
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-black hover:text-white">
-                    ⚫
-                </button>
+            <div class="bg-white p-3 shadow-lg rounded-lg text-center group hover:shadow-xl hover:scale-105 transition-all duration-300">
+                <img src="${item.image}" alt="Product Image" class="w-full rounded-md">
+                <p class="text-sm font-semibold mt-2">${item.name}</p>
+                <p class="text-gray-500 text-xs">${item.spec}</p>
+                <p class="text-green-600 font-semibold">${item.price}</p>
+                <div class="flex justify-center space-x-2 mt-3 opacity-0 group-hover:opacity-100 transition duration-300">
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-yellow-500 hover:text-white">
+                        🛒
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-blue-500 hover:text-white">
+                        👁️
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-red-500 hover:text-white">
+                        ❤️
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-black hover:text-white">
+                        ⚫
+                    </button>
+                </div>
             </div>
-        </div>
         `;
       });
     });
@@ -256,26 +257,26 @@ function slider() {
     .then(data => {
       data.forEach(item => {
         ACCESSORIES.innerHTML += `
-        <div class="bg-white p-3 shadow-lg rounded-lg text-center group hover:shadow-xl hover:scale-105 transition-all duration-300">
-            <img src="${item.image}" alt="Product Image" class="w-full rounded-md">
-            <p class="text-sm font-semibold mt-2">${item.name}</p>
-            <p class="text-gray-500 text-xs">${item.spec}</p>
-            <p class="text-green-600 font-semibold">${item.price}</p>
-            <div class="flex justify-center space-x-2 mt-3 opacity-0 group-hover:opacity-100 transition duration-300">
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-yellow-500 hover:text-white">
-                    🛒
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-blue-500 hover:text-white">
-                    👁️
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-red-500 hover:text-white">
-                    ❤️
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-black hover:text-white">
-                    ⚫
-                </button>
+            <div class="bg-white p-3 shadow-lg rounded-lg text-center group hover:shadow-xl hover:scale-105 transition-all duration-300">
+                <img src="${item.image}" alt="Product Image" class="w-full rounded-md">
+                <p class="text-sm font-semibold mt-2">${item.name}</p>
+                <p class="text-gray-500 text-xs">${item.spec}</p>
+                <p class="text-green-600 font-semibold">${item.price}</p>
+                <div class="flex justify-center space-x-2 mt-3 opacity-0 group-hover:opacity-100 transition duration-300">
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-yellow-500 hover:text-white">
+                        🛒
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-blue-500 hover:text-white">
+                        👁️
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-red-500 hover:text-white">
+                        ❤️
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-black hover:text-white">
+                        ⚫
+                    </button>
+                </div>
             </div>
-        </div>
         `;
       });
     });
@@ -285,26 +286,26 @@ function slider() {
     .then(data => {
       data.forEach(item => {
         AUDIO.innerHTML += `
-        <div class="bg-white p-3 shadow-lg rounded-lg text-center group hover:shadow-xl hover:scale-105 transition-all duration-300">
-            <img src="${item.image}" alt="Product Image" class="w-full rounded-md">
-            <p class="text-sm font-semibold mt-2">${item.name}</p>
-            <p class="text-gray-500 text-xs">${item.spec}</p>
-            <p class="text-green-600 font-semibold">${item.price}</p>
-            <div class="flex justify-center space-x-2 mt-3 opacity-0 group-hover:opacity-100 transition duration-300">
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-yellow-500 hover:text-white">
-                    🛒
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-blue-500 hover:text-white">
-                    👁️
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-red-500 hover:text-white">
-                    ❤️
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-black hover:text-white">
-                    ⚫
-                </button>
+            <div class="bg-white p-3 shadow-lg rounded-lg text-center group hover:shadow-xl hover:scale-105 transition-all duration-300">
+                <img src="${item.image}" alt="Product Image" class="w-full rounded-md">
+                <p class="text-sm font-semibold mt-2">${item.name}</p>
+                <p class="text-gray-500 text-xs">${item.spec}</p>
+                <p class="text-green-600 font-semibold">${item.price}</p>
+                <div class="flex justify-center space-x-2 mt-3 opacity-0 group-hover:opacity-100 transition duration-300">
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-yellow-500 hover:text-white">
+                        🛒
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-blue-500 hover:text-white">
+                        👁️
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-red-500 hover:text-white">
+                        ❤️
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-black hover:text-white">
+                        ⚫
+                    </button>
+                </div>
             </div>
-        </div>
         `;
       });
     });
@@ -314,26 +315,26 @@ function slider() {
     .then(data => {
       data.forEach(item => {
         PROJECTOR.innerHTML += `
-        <div class="bg-white p-3 shadow-lg rounded-lg text-center group hover:shadow-xl hover:scale-105 transition-all duration-300">
-            <img src="${item.image}" alt="Product Image" class="w-full rounded-md">
-            <p class="text-sm font-semibold mt-2">${item.name}</p>
-            <p class="text-gray-500 text-xs">${item.spec}</p>
-            <p class="text-green-600 font-semibold">${item.price}</p>
-            <div class="flex justify-center space-x-2 mt-3 opacity-0 group-hover:opacity-100 transition duration-300">
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-yellow-500 hover:text-white">
-                    🛒
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-blue-500 hover:text-white">
-                    👁️
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-red-500 hover:text-white">
-                    ❤️
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-black hover:text-white">
-                    ⚫
-                </button>
+            <div class="bg-white p-3 shadow-lg rounded-lg text-center group hover:shadow-xl hover:scale-105 transition-all duration-300">
+                <img src="${item.image}" alt="Product Image" class="w-full rounded-md">
+                <p class="text-sm font-semibold mt-2">${item.name}</p>
+                <p class="text-gray-500 text-xs">${item.spec}</p>
+                <p class="text-green-600 font-semibold">${item.price}</p>
+                <div class="flex justify-center space-x-2 mt-3 opacity-0 group-hover:opacity-100 transition duration-300">
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-yellow-500 hover:text-white">
+                        🛒
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-blue-500 hover:text-white">
+                        👁️
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-red-500 hover:text-white">
+                        ❤️
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-black hover:text-white">
+                        ⚫
+                    </button>
+                </div>
             </div>
-        </div>
         `;
       });
     });
@@ -343,26 +344,26 @@ function slider() {
     .then(data => {
       data.forEach(item => {
         PRINTER.innerHTML += `
-        <div class="bg-white p-3 shadow-lg rounded-lg text-center group hover:shadow-xl hover:scale-105 transition-all duration-300">
-            <img src="${item.image}" alt="Product Image" class="w-full rounded-md">
-            <p class="text-sm font-semibold mt-2">${item.name}</p>
-            <p class="text-gray-500 text-xs">${item.spec}</p>
-            <p class="text-green-600 font-semibold">${item.price}</p>
-            <div class="flex justify-center space-x-2 mt-3 opacity-0 group-hover:opacity-100 transition duration-300">
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-yellow-500 hover:text-white">
-                    🛒
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-blue-500 hover:text-white">
-                    👁️
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-red-500 hover:text-white">
-                    ❤️
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-black hover:text-white">
-                    ⚫
-                </button>
+            <div class="bg-white p-3 shadow-lg rounded-lg text-center group hover:shadow-xl hover:scale-105 transition-all duration-300">
+                <img src="${item.image}" alt="Product Image" class="w-full rounded-md">
+                <p class="text-sm font-semibold mt-2">${item.name}</p>
+                <p class="text-gray-500 text-xs">${item.spec}</p>
+                <p class="text-green-600 font-semibold">${item.price}</p>
+                <div class="flex justify-center space-x-2 mt-3 opacity-0 group-hover:opacity-100 transition duration-300">
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-yellow-500 hover:text-white">
+                        🛒
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-blue-500 hover:text-white">
+                        👁️
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-red-500 hover:text-white">
+                        ❤️
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-black hover:text-white">
+                        ⚫
+                    </button>
+                </div>
             </div>
-        </div>
         `;
       });
     });
@@ -372,26 +373,26 @@ function slider() {
     .then(data => {
       data.forEach(item => {
         DIGITAL.innerHTML += `
-        <div class="bg-white p-3 shadow-lg rounded-lg text-center group hover:shadow-xl hover:scale-105 transition-all duration-300">
-            <img src="${item.image}" alt="Product Image" class="w-full rounded-md">
-            <p class="text-sm font-semibold mt-2">${item.name}</p>
-            <p class="text-gray-500 text-xs">${item.spec}</p>
-            <p class="text-green-600 font-semibold">${item.price}</p>
-            <div class="flex justify-center space-x-2 mt-3 opacity-0 group-hover:opacity-100 transition duration-300">
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-yellow-500 hover:text-white">
-                    🛒
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-blue-500 hover:text-white">
-                    👁️
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-red-500 hover:text-white">
-                    ❤️
-                </button>
-                <button class="p-2 bg-gray-200 rounded-md hover:bg-black hover:text-white">
-                    ⚫
-                </button>
+            <div class="bg-white p-3 shadow-lg rounded-lg text-center group hover:shadow-xl hover:scale-105 transition-all duration-300">
+                <img src="${item.image}" alt="Product Image" class="w-full rounded-md">
+                <p class="text-sm font-semibold mt-2">${item.name}</p>
+                <p class="text-gray-500 text-xs">${item.spec}</p>
+                <p class="text-green-600 font-semibold">${item.price}</p>
+                <div class="flex justify-center space-x-2 mt-3 opacity-0 group-hover:opacity-100 transition duration-300">
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-yellow-500 hover:text-white">
+                        🛒
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-blue-500 hover:text-white">
+                        👁️
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-red-500 hover:text-white">
+                        ❤️
+                    </button>
+                    <button class="p-2 bg-gray-200 rounded-md hover:bg-black hover:text-white">
+                        ⚫
+                    </button>
+                </div>
             </div>
-        </div>
         `;
       });
     });
